@@ -2,6 +2,25 @@
 A stripped down version of google-drive.
 
 **Clone the repository**
+**7**
+```bash
+sudo apt install nginx 
+```
+
+```bash
+cd /var/www
+sudo chmod 777 html/ 
+```
+**8**
+```bash
+git init
+git config --global user.name "Debayan"
+git config --global user.email "debayanwb17@gmail.com"
+git remote add origin <url>
+git branch -M main -u origin main
+git push -u origin main 
+```
+**9**
 ```bash
 curl -sL https://deb.nodesource.com/setup_16.x|sudo -E bash -
 sudo apt install nodejs 
@@ -23,6 +42,7 @@ cd aws-repo
 npm install
 node index.js
 ```
+**11**
 ```bash
 while(true)
 do
@@ -56,5 +76,6 @@ location / {
 ```
 ```bash
 sudo chmod +x default
+sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
