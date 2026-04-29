@@ -31,4 +31,5 @@ done
 ```
 ```bash
 sudo chmod +x debayan.sh
+sh debayan.sh
 ```
