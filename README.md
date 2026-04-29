@@ -29,3 +29,6 @@ do
   echo "Inside Loop"
 done
 ```
+```bash
+sudo chmod +x debayan.sh
+```
