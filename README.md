@@ -23,3 +23,9 @@ cd aws-repo
 npm install
 node index.js
 ```
+```bash
+while(true)
+do
+  echo "Inside Loop"
+done
+```
